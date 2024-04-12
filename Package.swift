@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloudPaymentNetworkingIntaro",
+    name: "CloudPaymentNetworking",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "CloudPaymentNetworkingIntaro",
+            name: "CloudPaymentNetworking",
             targets: ["networking"]),
     ],
     targets: [
